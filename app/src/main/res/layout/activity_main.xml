@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/_text_0_guidelines_top8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.1301" />
+            <android.support.constraint.Guideline
+android:id="@+id/_text_0_guidelines_start8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.2413" />
+            <android.support.constraint.Guideline
+android:id="@+id/_text_0_guidelines_bottom8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.54989" />
+            <android.support.constraint.Guideline
+android:id="@+id/_text_0_guidelines_end8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.9063499999999999" />
+            <com.yotako.customView.YotakoTextView
+android:id="@+id/_text_0"
+android:fontFamily="Lato"
+
+android:text="Lorem ipsum..." 
+android:textColor="#323232"
+android:textSize="14sp"
+app:autoSizeTextType="none"
+app:originalWidth="249"
+app:originalHeight="280"
+android:layout_width="0dp"
+android:layout_height="336dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/_text_0_guidelines_start8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+app:layout_constraintTop_toTopOf="@+id/_text_0_guidelines_top8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+app:layout_constraintEnd_toEndOf="@+id/_text_0_guidelines_end8c2e3b48_6443_4b00_a4c4_b482570dfc7e"
+app:layout_constraintBottom_toBottomOf="@+id/_text_0_guidelines_bottom8c2e3b48_6443_4b00_a4c4_b482570dfc7e" />
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
